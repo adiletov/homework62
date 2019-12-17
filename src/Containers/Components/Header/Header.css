@@ -1,0 +1,42 @@
+.header{
+    position: relative;
+}
+.obl{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: "Times New Roman";
+}
+.obl.active{
+    font-size: 23px;
+    border-bottom: 1px solid black;
+}
+.chuy{
+    top: 8%;
+    left: 44%;
+}
+.issykkuly{
+    top: 28%;
+    right: 19%;
+}
+.naryn{
+    top: 43%;
+    right: 34%;
+}
+.osh{
+    bottom: 25%;
+    left: 35%;
+}
+.batken{
+    bottom: 17%;
+    left: 20%;
+}
+.djalalabad{
+    top: 41%;
+    left: 30%;
+}
+.talas{
+    top: 17%;
+    left: 26%;
+}

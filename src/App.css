@@ -1,17 +1,14 @@
 .App {
   text-align: center;
+  font-family: "Times New Roman";
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +25,27 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.district{
+  text-align: left;
+}
+.card{
+  border: 1px solid black;
+  padding: 20px 30px;
+
+}
+.card h6{
+  font-size: 18px;
+}
+.card h4{
+  font-size: 22px;
+}
+.infoBlock{
+  position: absolute;
+  top: 30%;
+  right: 3%;
+}
+.infoBlock img{
+  width: 200px;
+
 }
